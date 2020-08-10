@@ -64,6 +64,34 @@ Test Framework development and testing is done on Windows platform only. Tools a
 	Maven
 	
 Detailed level of test reporting is not considred since it is just demo
- 	
+
+How to build using Eclipse
+-------------------------------------
+Start a new Maven Project from the scratch
+Add all the dependencies similare to .pom file
+
+Add three packages demopages, koneksatests, Reports
+Files under demopages are
+ AddressPage.java
+ CheckoutOverviewPage.java
+ GUIBase.java
+ LoginPage.java
+ ProductsPage.java
+ ThankYouPage.java
+ Variables.java
+ YourCartPage.java
+
+Files under koneksatests are
+ SeleniumTestsRunner.java
+ SingleJarRunner.java
+ TestnGApiTests.java
+ TestNGGUITests.java
+ TestUtils.java
+
+Reports package has one file
+ ExtReporter.java
+Now you would able to build and debug
+Run as Java application /TestNG Application
+
 Thank You for your time
 Jeevan Arumughan
