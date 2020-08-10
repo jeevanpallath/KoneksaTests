@@ -38,7 +38,7 @@ public class SeleniumTestsRunner extends GUIBase {
 
 		javaRunner.startBrowser(Variables.browser);
 		javaRunner.testExecute();
-		extentReporter.closeReport();
+		//extentReporter.closeReport();
 	}
 	
 	public SeleniumTestsRunner testExecute() {
@@ -83,6 +83,7 @@ public class SeleniumTestsRunner extends GUIBase {
 		Assert.assertTrue(thankYou.getThankYouNote().contains("THANK YOU FOR YOUR ORDER"));
 		Assert.assertTrue(thankYou.getStatusNote().contains("Your order has been dispatched, and will arrive just as fast as the pony can get there!"));
 		
+		extentReporter.closeReport();
 		driver.close();
 		return this;
 	}
