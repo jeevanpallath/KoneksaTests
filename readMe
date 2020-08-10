@@ -1,4 +1,35 @@
-https://github.com/jeevanpallath/KoneksaTests
+//https://github.com/jeevanpallath/KoneksaTests/
+
+Pre Condition
+-------------------------------------
+Java is already available on machine, otherwise please Install Java 1.8
+Google Chrome browser is installed
+Firefox browser installed (optional)
+If you want to run tests on Firefox browser refer Firefox Configuration below
+
+How To Execute Tests
+-------------------------------------
+
+1. Please copy following files from Git repository to a local folder
+	KoneksaTests.zip
+	chromedriver.exe
+	geckodriver.exe (optional)
+	address.json
+	browser.json
+	start.bat (optional)
+	
+Extract KoneksaTests.zip file to same location of above files to get executable KoneksaTests.jar
+
+From a terminal /console go to above folder path where the files were extracted
+Type below command to Run the tests
+	java -jar KoneksaTests.jar
+
+Test execution uses the browser drivers and json file configuration from above folder.
+By default, Framework uses Chrome driver for Selenium Tests.
+Firefox browser is also supported by the Framework by modifiying browser.json configuration as below.
+{
+"browser":"firefox"
+"driver" : "./geckodriver.exe"https://github.com/jeevanpallath/KoneksaTests
 
 It assumes Java is already available on machine, otherwise please Install Java 1.8
 
@@ -19,7 +50,13 @@ From a terminal /console go to above folder path where the files were extracted
 Type below command to Run the tests
 java -jar KoneksaTests.jar
 
+
+Please close the terminal when you see "Ending Automation tests..."
+
 Test execution uses the browser drivers and json file configuration from above folder.
+
+Firefox Configuration
+-------------------------------------
 By default, Framework uses Chrome driver for Selenium Tests.
 Firefox browser is also supported by the Framework by modifiying browser.json configuration as below.
 {
@@ -55,5 +92,43 @@ Detailed level of test reporting is not considred since it is just demo
  	
 Thank You for your time
 Jeevan Arumughan
+
+
+
+}
+
+Other browsers are not considered for demonstration.
+
+Optional way to start test execution
+-------------------------------------
+From windows file explorer start.bat file can used for starting the test execuiton by double clicking it.
+
+Please close the terminal when you see "Ending Automation tests..."
+
+Two HTML reports will be generated after test execuiton as below
+	SeleniumTests.html
+	apiTests.html
+
+Notes
+-------------------------------------
+Test Framework development and testing is done on Windows platform only. Tools and packages used are
+	Eclipse
+	Java
+	Selenium
+	TestNG
+	RestAssured
+	Simple JSon
+	ExtentedReport
+	Maven
+	
+Detailed level of test reporting is not considred since it is just demo
+ 	
+Thank You for your time
+Jeevan Arumughan
+
+
+
+
+
 
 
