@@ -1,0 +1,6 @@
+{
+    "browser":"chrome",
+	"driver" : "./chromedriver.exe"
+"__browser__":"firefox"
+"__driver__" : "./geckodriver.exe"
+}
