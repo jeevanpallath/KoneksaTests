@@ -68,7 +68,7 @@ Detailed level of test reporting is not considred since it is just demo
 How to build using Eclipse
 -------------------------------------
 Start a new Maven Project from the scratch
-Add all the dependencies similare to .pom file
+Add all the dependencies similare to pom.xml file
 
 Add three packages demopages, koneksatests, Reports
 Files under demopages are
