@@ -6,12 +6,14 @@ How To Execute Tests
 -------------------------------------
 
 1. Please copy following files from Git repository to a local folder
-	KoneksaTests.jar
+	KoneksaTests.jar (extract file KoneksaTests.zip )
 	chromedriver.exe
 	geckodriver.exe (optional)
 	address.json
 	browser.json
 	start.bat (optional)
+
+Note - KoneksaTests.jar is compressed as KoneksaTests.zip, please extract zip file before running tests
 
 From a terminal /console go to above folder path where the files were extracted
 Type below command to Run the tests
