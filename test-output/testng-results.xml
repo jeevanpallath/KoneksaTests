@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="15553" started-at="2020-08-10T11:57:53 EDT" finished-at="2020-08-10T11:58:09 EDT">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="15553" started-at="2020-08-10T11:57:53 EDT" finished-at="2020-08-10T11:58:09 EDT">
+      <class name="koneksatests.TestNGGUITests">
+        <test-method status="PASS" signature="createAndStartService()[pri:0, instance:koneksatests.TestNGGUITests@649d209a]" name="createAndStartService" is-config="true" duration-ms="7092" started-at="2020-08-10T11:57:53 EDT" finished-at="2020-08-10T11:58:00 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAndStartService -->
+        <test-method status="PASS" signature="runGuiTests()[pri:0, instance:koneksatests.TestNGGUITests@649d209a]" name="runGuiTests" duration-ms="3833" started-at="2020-08-10T11:58:00 EDT" finished-at="2020-08-10T11:58:04 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runGuiTests -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:koneksatests.TestNGGUITests@649d209a]" name="tearDown" is-config="true" duration-ms="594" started-at="2020-08-10T11:58:04 EDT" finished-at="2020-08-10T11:58:05 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- koneksatests.TestNGGUITests -->
+      <class name="koneksatests.TestnGApiTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:koneksatests.TestnGApiTests@6adca536]" name="setup" is-config="true" duration-ms="2" started-at="2020-08-10T11:58:05 EDT" finished-at="2020-08-10T11:58:05 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="samplePostBddTest()[pri:0, instance:koneksatests.TestnGApiTests@6adca536]" name="samplePostBddTest" duration-ms="2876" started-at="2020-08-10T11:58:05 EDT" finished-at="2020-08-10T11:58:08 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- samplePostBddTest -->
+        <test-method status="PASS" signature="sampleGetBddTest()[pri:1, instance:koneksatests.TestnGApiTests@6adca536]" name="sampleGetBddTest" duration-ms="290" started-at="2020-08-10T11:58:08 EDT" finished-at="2020-08-10T11:58:08 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleGetBddTest -->
+        <test-method status="PASS" signature="sampleDeleteBddTest()[pri:2, instance:koneksatests.TestnGApiTests@6adca536]" name="sampleDeleteBddTest" duration-ms="339" started-at="2020-08-10T11:58:08 EDT" finished-at="2020-08-10T11:58:08 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleDeleteBddTest -->
+        <test-method status="PASS" signature="sampleOldStyleTest()[pri:3, instance:koneksatests.TestnGApiTests@6adca536]" name="sampleOldStyleTest" duration-ms="488" started-at="2020-08-10T11:58:08 EDT" finished-at="2020-08-10T11:58:09 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleOldStyleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:koneksatests.TestnGApiTests@6adca536]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-08-10T11:58:09 EDT" finished-at="2020-08-10T11:58:09 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- koneksatests.TestnGApiTests -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
