@@ -35,7 +35,7 @@ Firefox Configuration
 By default, Framework uses Chrome driver for Selenium Tests.
 Firefox browser is also supported by the Framework by modifiying browser.json configuration as below.
 {
-"browser":"firefox"
+"browser":"firefox",
 "driver" : "./geckodriver.exe"
 }
 
