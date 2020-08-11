@@ -43,7 +43,7 @@ Other browsers are not considered for demonstration.
 
 Optional way to start test execution
 -------------------------------------
-From windows file explorer start.bat file can used for starting the test execuiton by double clicking it.
+From windows file explorer start.bat file can be used for starting the test execuiton by double clicking it.
 
 Please close the terminal when you see "Ending Automation tests..."
 
@@ -68,7 +68,7 @@ Detailed level of test reporting is not considred since it is just demo
 How to build using Eclipse
 -------------------------------------
 Start a new Maven Project from the scratch
-Add all the dependencies similare to pom.xml file
+Add all the dependencies similar to pom.xml file
 
 Add three packages demopages, koneksatests, Reports
 Files under demopages are
@@ -90,7 +90,7 @@ Files under koneksatests are
 
 Reports package has one file
  ExtReporter.java
-Now you would able to build and debug
+Now you would able to build and debug using Eclipse/IntelliJ IDE
 Run as Java application /TestNG Application
 
 Thank You for your time
